@@ -14,14 +14,16 @@ Summary: A coalescent simulator that allows the rapid simulation of biological s
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-scrm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-scrm-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-scrm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-scrm-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-scrm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-scrm-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-scrm-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-scrm-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-scrm-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-scrm-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-scrm-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-scrm-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-scrm/badges/version.svg)](https://anaconda.org/conda-forge/r-scrm)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-scrm/badges/downloads.svg)](https://anaconda.org/conda-forge/r-scrm)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--scrm-green.svg)](https://anaconda.org/conda-forge/r-scrm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-scrm.svg)](https://anaconda.org/conda-forge/r-scrm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-scrm.svg)](https://anaconda.org/conda-forge/r-scrm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-scrm.svg)](https://anaconda.org/conda-forge/r-scrm) |
 
 Installing r-scrm
 =================
