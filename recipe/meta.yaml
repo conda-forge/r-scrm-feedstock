@@ -1,4 +1,4 @@
-{% set version = '1.7.3-1' %}
+{% set version = "1.7.4-0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/scrm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/scrm/scrm_{{ version }}.tar.gz
-  sha256: c89692790c31b4778c3cb770691f7c88b990c87def588245ea44273a84d20f24
+  sha256: c96ae34cf0335aed244149cdc798b2ac31b0bc354ca7dfed96a0d0793d70c6ce
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -46,14 +46,10 @@ test:
 about:
   home: https://github.com/scrm/scrm-r
   license: GPL-3.0-or-later
-  summary: A coalescent simulator that allows the rapid simulation of biological sequences under
-    neutral models of evolution. Different to other coalescent based simulations, it
-    has an optional approximation parameter that allows for high accuracy while maintaining
-    a linear run time cost for long sequences. It is optimized for simulating massive
-    data sets as produced by Next- Generation Sequencing technologies for up to several
-    thousand sequences.
+  summary: A coalescent simulator that allows the rapid simulation of biological sequences under neutral models of evolution. Different to other coalescent based simulations, it has an optional approximation parameter that allows for high accuracy while maintaining a linear run time cost for long sequences. It is optimized
+    for simulating massive data sets as produced by Next- Generation Sequencing technologies for up to several thousand sequences.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
