@@ -3,6 +3,7 @@ About r-scrm-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-scrm-feedstock/blob/main/LICENSE.txt)
 
+
 About r-scrm
 ------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/scrm/scrm-r
 Package license: GPL-3.0-or-later
 
 Summary: A coalescent simulator that allows the rapid simulation of biological sequences under neutral models of evolution. Different to other coalescent based simulations, it has an optional approximation parameter that allows for high accuracy while maintaining a linear run time cost for long sequences. It is optimized for simulating massive data sets as produced by Next- Generation Sequencing technologies for up to several thousand sequences.
+
 About r-scrm
 ------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
